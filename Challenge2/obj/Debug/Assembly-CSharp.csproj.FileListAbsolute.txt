@@ -1,0 +1,2 @@
+D:\Unity\Challenge\Challenge-2\Challenge2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Unity\Challenge\Challenge-2\Challenge2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
