@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip musicClipOne;
     public AudioClip musicClipTwo;
     public AudioClip musicClipThree;
-    
+
 
     private int scoreValue = 0;
     private int livesValue = 3;
@@ -62,8 +62,6 @@ public class PlayerController : MonoBehaviour
             Scaler.x *= -1;
             transform.localScale = Scaler;
         }
-        if (Input.GetKey("escape"))
-            Application.Quit();
 
         if (hozMovement == 0)
         {
@@ -73,9 +71,6 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("Walk", true);
         }
-
-       
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -87,7 +82,6 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.collider.gameObject);
             if (scoreValue == 4)
             transform.position = new Vector2(81.25f, .502f);
-            if (scoreValue == 4)
             livesValue = 3;
             lives.text = "Lives:" + livesValue.ToString();
 
@@ -99,26 +93,23 @@ public class PlayerController : MonoBehaviour
             lives.text = "Lives:" + livesValue.ToString();
             Destroy(collision.collider.gameObject);
         }
-
         if (scoreValue == 8)
         {
             win.text = "You Win! Game created by Brandon Rodriguez";
             musicSource.clip = musicClipTwo;
             musicSource.Play();
+            Destroy(sprite);
             Destroy(rd2d);
             Destroy(anim);
-            Destroy(sprite);
         }
-        
-
         if (livesValue == 0)
         {
             win.text = "Game Over! Game created by Brandon Rodriguez";
             musicSource.clip = musicClipThree;
             musicSource.Play();
+            Destroy(sprite);
             Destroy(rd2d);
             Destroy(anim);
-            Destroy(sprite);
         }
     }
        
