@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Tree
   - Enemy
+  - FlyPotion
+  - JumpPotion
   layers:
   - Default
   - TransparentFX
@@ -56,6 +58,9 @@ TagManager:
     locked: 0
   - name: Platform
     uniqueID: 438548275
+    locked: 0
+  - name: Potion
+    uniqueID: 2265120407
     locked: 0
   - name: Coin
     uniqueID: 569471839
