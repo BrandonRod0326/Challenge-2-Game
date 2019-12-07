@@ -11712,12 +11712,12 @@ PrefabInstance:
     - target: {fileID: 3862709461594436095, guid: 896c3fdb025a8b44db7c216044820903,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.48
+      value: 16.08
       objectReference: {fileID: 0}
     - target: {fileID: 3862709461594436095, guid: 896c3fdb025a8b44db7c216044820903,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 3862709461594436095, guid: 896c3fdb025a8b44db7c216044820903,
         type: 3}
@@ -13143,7 +13143,7 @@ MonoBehaviour:
   speed: 5
   jump: 1
   timeCurrent: 0
-  timeStart: 100
+  timeStart: 80
   score: {fileID: 741865466}
   lives: {fileID: 759582931}
   win: {fileID: 1786377399}
@@ -13673,12 +13673,12 @@ PrefabInstance:
     - target: {fileID: 5487753801273379802, guid: db79a54c432abe744b58577482370126,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.78
+      value: 4.19
       objectReference: {fileID: 0}
     - target: {fileID: 5487753801273379802, guid: db79a54c432abe744b58577482370126,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: -1.707
       objectReference: {fileID: 0}
     - target: {fileID: 5487753801273379802, guid: db79a54c432abe744b58577482370126,
         type: 3}

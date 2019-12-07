@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - CoinScript
     - EnemyScript
     - PlayerController
     UnityEditor.Graphs.dll:
@@ -71,7 +72,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9518}
     - Class: 114
-      Script: {instanceID: 9970}
+      Script: {instanceID: 9972}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -531,7 +532,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: c52dba7970c0abfeb6f9c6e251b4ab2f
+      Hash: c89659a23ccbf7fe9c695e4966e00b9e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -559,6 +560,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CoinScript
   - hash:
       serializedVersion: 2
       Hash: 303ad70ce203ad874efe2965d0fbcff9
@@ -754,4 +761,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Challenge2/Challenge2.exe
+  playerPath: D:/Rodriguez_Brandon_DIG3480_FinalProject/Challenge2.exe

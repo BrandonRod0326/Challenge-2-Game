@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jump;
     public float timeCurrent = 0f;
-    public float timeStart = 100f;
+    public float timeStart = 80f;
     public Text score;
     public Text lives;
     public Text win;
