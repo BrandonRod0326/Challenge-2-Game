@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jump;
     public float timeCurrent = 0f;
-    public float timeStart = 120f;
+    public float timeStart = 100f;
     public Text score;
     public Text lives;
     public Text win;
@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
         lives.text = "Lives:" + livesValue.ToString();
         timeCurrent = timeStart;
         win.text = "";
-        livesValue = 3;
         musicSource2.clip = musicClipOne;
         musicSource2.Play();
         musicSource2.loop = true;
@@ -112,6 +111,8 @@ public class PlayerController : MonoBehaviour
             {
                 transform.position = new Vector2(81.25f, .502f);
                 jump = 1;
+                livesValue = 3;
+                lives.text = "Lives:" + livesValue.ToString();
             }
 
         }
